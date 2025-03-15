@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const connectDB = async () => {
   try {
     // Replace this URL with your actual MongoDB connection string
-    const mongoURI = 'mongodb://localhost:27017/userDB';  // Use your database name here
+    const mongoURI = 'mongodb+srv://malusareshreyash01:<db_password>@cluster.shve6pu.mongodb.net';  // Use your database name here
     await mongoose.connect(mongoURI, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
