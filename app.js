@@ -19,7 +19,7 @@ const app = express();
 
 // Configure CORS
 const corsOptions = {
-  origin: 'http://localhost:5173',
+  origin: 'https://m-a-c-s-backend.onrender.com',
   methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization', 'x-user-id'],
   credentials: true
