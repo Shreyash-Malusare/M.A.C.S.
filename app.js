@@ -14,7 +14,7 @@ const userRoutes = require('./routes/user');
 const orderRoutes = require('./routes/orders');
 const reviewRoutes = require('./routes/review');
 const messageRoutes = require('./routes/message');
-const PORT = 3001; // Directly use port 3001
+const PORT = process.env.PORT || 3001; 
 const app = express();
 
 // Configure CORS
