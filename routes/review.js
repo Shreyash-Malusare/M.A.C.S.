@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const Review = require('../models/review');
+const Product = require('../models/product'); 
 
 // POST a new review
 router.post('/:id/reviews', async (req, res) => {
